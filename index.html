@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta content="telephone=no" name="format-detection">
+	<!--if IE meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')-->
+	<!--if lt IE 9 script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')-->
+	<title>라이브러리 기본</title>
+	<!--css import-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- silder -->	
+	<!-- <link rel="stylesheet" href="css/swiper_layout.css"> -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="plugin/swiper/dist/css/swiper.css">
+	<!-- animate -->
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- popup -->
+	<link rel="stylesheet" href="css/jquery.modal.css" />	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="plugin/magnific-popup/magnific-popup.css">
+
+	<style>
+	.swiper-container {
+		width: 600px;
+		height: 300px;
+	}
+	</style>
+</head>
+<body>
+	<div id="warp" >
+		<!-- 애니메이션 테스트-->
+		<div class="title-wrap">
+			<h2 class="animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">GGTrading</h2>
+		</div>
+		<!-- 애니메이션 테스트-->
+
+		<!-- Slider main container -->
+		<div class="swiper-container">
+			<!-- Additional required wrapper -->
+			<div class="swiper-wrapper">
+				<!-- Slides -->
+				<div class="swiper-slide">Slide 1</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+			</div>
+			<!-- If we need pagination -->
+			<div class="swiper-pagination"></div>
+
+			<!-- If we need navigation buttons -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+		</div>
+		<!-- Slider main container -->
+
+		<!-- Modal HTML embedded directly into document -->
+		<div id="ex1" class="modal">
+		  <p>Thanks for clicking. That felt good.</p>
+		  <a href="#" rel="modal:close">Close</a>
+		</div>
+
+		<!--팝업 테스트-->
+		<div id="test-popup" class="white-popup mfp-hide">
+		  Popup content
+		</div>
+
+		<style>
+			.white-popup {
+			  position: relative;
+			  background: #FFF;
+			  padding: 20px;
+			  width: auto;
+			  max-width: 500px;
+			  margin: 20px auto;
+			}
+		</style>
+		<a href="#test-popup" class="open-popup-link">Show inline popup</a>
+		<!--팝업 테스트-->
+
+
+	</div>
+ </body> 
+</html>
+
+<!-- js import -->
+<script src="js/jquery.min.js"></script>
+<!-- animation -->
+<script src="js/scrolla.jquery.min.js"></script>
+<!-- scroll -->
+<script src="plugin/scrolla/scrolla.jquery.min.js"></script>
+<!-- silder -->
+<script src="plugin/swiper/dist/js/swiper.ani.js"></script>
+<script src="plugin/swiper/dist/js/swiper.min.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="plugin/magnific-popup/jquery.magnific-popup.js"></script>
+
+
+<script src="js/main.js"></script>

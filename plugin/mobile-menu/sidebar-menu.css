@@ -1,0 +1,317 @@
+.animate-menu-push {
+    left: 0;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.animate-menu-push.animate-menu-push-right {
+    left: 150px;
+}
+
+.animate-menu-push.animate-menu-push-left {
+    left: -150px;
+}
+
+.animate-menu {
+    position: fixed;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.animate-menu-left {
+    left: -150px;  
+}
+
+.animate-menu-left.animate-menu-open {
+    left: 0;
+}
+
+.animate-menu-right {
+    right: -150px;
+}
+
+.animate-menu-right.animate-menu-open {
+    right: 0;
+}
+.js-hiraku-offcanvas-sidebar {
+/*    background-image: linear-gradient(to right bottom, #736de2, #4770e5, #6ab6fe) !important;*/
+    background: url('../../../img/mobile/m_menu_bg.jpg');
+    background-size: cover;
+}
+#sidebar .title_wrap {
+    background-color: #635dd1;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#sidebar .title_wrap h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#sidebar p.close-btn {
+    z-index: 100001;
+    float: right;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 27px;
+}
+
+#sidebar p.close-btn > i {
+    transition: 0.3s all ease;
+}
+#sidebar p.close-btn > i:hover {
+    transform: rotate(-360deg);
+}
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+/*    background: url("../../../img/mobile/mobile_top_bg.png");*/
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 126px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sidebar-offcanvas .btn-group {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.sidebar-offcanvas .btn-group a {
+    width: 50%;
+}
+.sidebar-offcanvas .btn-group a.btn {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    border-radius: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.sidebar-offcanvas .btn-group .copy {
+    color: rgba(255, 255, 255, 0.8); 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    padding-top: 23px;
+}
+.sidebar-menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.sidebar-menu > li > i {
+    display: none;
+}
+
+.sidebar-menu > li > a {
+    padding: 20px 20px 20px 15px;
+    display: block;
+    border-left: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    border-bottom: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    transition: 0.6;
+}
+
+.sidebar-menu > li > a > .fa {
+    width: 20px;
+/*    display: none;*/
+    font-weight: 900;
+    
+}
+
+.sidebar-menu > li:hover > a,
+.sidebar-menu > li.active > a {
+    color: #fff;
+    background-color: transparent;
+}
+
+.sidebar-menu > li .label,
+.sidebar-menu > li .badge {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+
+.sidebar-menu li > a > .fa-angle-right {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 3px;
+    transition: 0.3s;
+    color: #fff;
+    font-weight: 900;
+    font-size: 13px;
+    
+}
+.sidebar-menu li > a:hover  .fa-angle-right {
+    
+    transform: rotate(-270deg); 
+    color: #fff;
+}
+.sidebar-menu li.active > a > .fa-angle-right {
+    transform: rotate(-270deg); 
+    color: #fff;
+}
+
+.sidebar-menu li.active > .sidebar-submenu {
+    display: block;
+}
+
+.sidebar-menu a {
+    color: #b8c7ce;
+    text-decoration: none;
+}
+
+.sidebar-menu .sidebar-submenu {
+    display: none;
+    list-style: none;
+    padding-left: 8px;
+    margin: 0 1px;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-menu .sidebar-submenu > li > a {
+    padding: 9px 5px 5px 19px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+/*    color: hsla(240,6%,97%,.5); */
+    color: #fff;
+}
+
+.sidebar-menu .sidebar-submenu > li > a > .fa {
+    width: 20px;
+    display: none;
+}
+
+
+
+.sidebar-menu .sidebar-submenu > li.active > a,
+.sidebar-menu .sidebar-submenu > li > a:hover {
+    color: #000;
+}
+
+.sidebar-menu-rtl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.sidebar-menu-rtl > li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu-rtl > li > a {
+    padding: 12px 15px 12px 5px;
+    display: block;
+    border-left: 3px solid transparent;
+    color: #b8c7ce;
+}
+
+.sidebar-menu-rtl > li > a > .fa {
+    width: 20px;
+}
+
+.sidebar-menu-rtl > li:hover > a,
+.sidebar-menu-rtl > li.active > a {
+    color: #000;
+    background: #1e282c;
+    border-left-color: #3c8dbc;
+}
+
+.sidebar-menu-rtl > li .label,
+.sidebar-menu-rtl > li .badge {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.sidebar-menu-rtl li.sidebar-header {
+    padding: 10px 15px 10px 25px;
+    font-size: 12px;
+    color: #4b646f;
+    background: #1a2226;
+}
+
+.sidebar-menu-rtl li > a > .fa-angle-right {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.sidebar-menu-rtl li.active > a > .fa-angle-right {
+    transform: rotate(-90deg);
+}
+
+.sidebar-menu-rtl li.active > .sidebar-submenu {
+    display: block;
+}
+
+.sidebar-menu-rtl a {
+    color: #b8c7ce;
+    text-decoration: none;
+}
+
+.sidebar-menu-rtl .sidebar-submenu {
+    display: none;
+    list-style: none;
+    padding-right: 5px;
+    margin: 0 1px;
+    background: #2c3b41;
+}
+
+.sidebar-menu-rtl .sidebar-submenu .sidebar-submenu {
+    padding-right: 20px;
+}
+
+.sidebar-menu-rtl .sidebar-submenu > li > a {
+    padding: 5px 15px 5px 5px;
+    display: block;
+    font-size: 14px;
+    color: #8aa4af;
+}
+
+.sidebar-menu-rtl .sidebar-submenu > li > a > .fa {
+    width: 20px;
+}
+
+.sidebar-menu-rtl .sidebar-submenu > li > a > .fa-angle-right,
+.sidebar-menu-rtl .sidebar-submenu > li > a > .fa-angle-down {
+    width: auto;
+}
+
+.sidebar-menu-rtl .sidebar-submenu > li.active > a,
+.sidebar-menu-rtl .sidebar-submenu > li > a:hover {
+    color: #fff;
+}

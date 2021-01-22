@@ -1,0 +1,59 @@
+
+.js-hiraku-offcanvas-sidebar {
+/*    background-image: linear-gradient(to right bottom, #736de2, #4770e5, #6ab6fe) !important;*/
+    background: url('../../../img/mobile/m_menu_bg.jpg');
+    background-size: cover;
+}
+.sidebar-menu {
+    background: none;
+}
+.hiraku-open-btn-line.white {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 4px;
+	margin: 6px 0;
+	transition: .1s all;
+	border-radius: 1em;
+	background-color: #fff;  
+    
+}
+
+.hiraku-open-btn-line.white:before,
+.hiraku-open-btn-line.white:after {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 4px;
+	content: '';
+	transition: .3s all;
+	border-radius: 1em;
+	background-color: #fff;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.hiraku-open-btn-line.black {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 4px;
+	margin: 6px 0;
+	transition: .1s all;
+	border-radius: 1em;
+	background-color: #fff;  
+    
+}
+
+.hiraku-open-btn-line.black:before,
+.hiraku-open-btn-line.black:after {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 4px;
+	content: '';
+	transition: .3s all;
+	border-radius: 1em;
+	background-color: #fff;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
