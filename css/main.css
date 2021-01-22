@@ -23,3 +23,17 @@ textarea {resize: none; outline: 0; vertical-align: top;}
 button {display: inline-block; font-family: inherit; text-decoration: none; background: transparent; border: none; outline: 0; white-space: nowrap; vertical-align: top; cursor: pointer;}
 .white-popup {position: relative; background: #FFF; padding: 20px; width: auto; max-width: 500px;margin: 20px auto; }
 .swiper-container {width: 600px; height: 300px;}
+
+.top_nav{}
+.top_nav .container{}
+
+.visual{}
+.visual .container{}
+
+.content_main{}
+.content_main .container{}
+
+.foot{}
+.foot .container{}
+}
+
