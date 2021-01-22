@@ -21,4 +21,5 @@ blockquote:before, blockquote:after, q:before, q:after {content: ""; content: no
 table {width: 100%; border-collapse: collapse; border-spacing: 0; table-layout: fixed; word-break: break-all;}
 textarea {resize: none; outline: 0; vertical-align: top;}
 button {display: inline-block; font-family: inherit; text-decoration: none; background: transparent; border: none; outline: 0; white-space: nowrap; vertical-align: top; cursor: pointer;}
-
+.white-popup {position: relative; background: #FFF; padding: 20px; width: auto; max-width: 500px;margin: 20px auto; }
+.swiper-container {width: 600px; height: 300px;}
