@@ -116,11 +116,27 @@ appearance: none;
 
 
 
-#warp .visual{}
-#warp .visual .container{}
+#warp .visual{position:relative; height:810px; background:#000;}
+#warp .visual .container{}                  
 
 #warp .content_main{}
 #warp .content_main .container{}
 
-#warp .foot{}
+
+#warp .photo_list{position:relative; height:565px;  }
+#warp .photo_list .container{}
+
+
+#warp .index_form{position:relative; height:530px; background:#373737;}
+#warp .index_form .container{}
+
+#warp .banner_slide{position:relative; height:215px;  }
+#warp .banner_slide .container{}
+
+#warp .googlemaps{position:relative; height:400px; background:#eee}
+
+#warp .foot_link{position:relative; height:50px; background:#373737;}
+#warp .foot_link .container{}
+
+#warp .foot{position:relative; height:227px; background:#2a2a2a;}
 #warp .foot .container{}
