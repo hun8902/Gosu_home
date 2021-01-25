@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-    $('#DB_navi24').DB_naviFullWideMove({
+    $('#top_gnb').DB_naviFullWideMove({
         key:'c37080',                 //라이센스키
         pageNum:3,           //메인메뉴 페이지인식(1~)
         subNum:1,            //서브메뉴 페이지인식(1~)
@@ -10,7 +10,17 @@ $(document).ready(function() {
         delayTime:100             //메뉴아웃시 되돌아가는 딜레이시간(밀리초)
     });
 
+  var selectTarget = $('.selectbox select');
+ selectTarget.on('blur', function(){
+   $(this).parent().removeClass('focus');
+ });
+  selectTarget.change(function(){
+    var select_name = $(this).children('option:selected').text();
+  $(this).siblings('label').text(select_name);
+  });
 });
+
+
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
