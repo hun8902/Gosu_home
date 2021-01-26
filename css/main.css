@@ -3,7 +3,7 @@
 
 /* CSS Document */
 html,body{padding:0; margin:0;}
-.container{width:1100px; margin:0 auto; }
+.container{width:1850px; margin:0 auto; }
 
 /* Default Setting */
 html, body, div, input, label, select, textarea, button, h1, h2, h3, h4, h5, h6, strong, p, span, a, ul, li, dl, dt, dd, a, ::after, ::before { font-family: 'Noto Sans KR', 'Malgun Gothic', 'Dotum', sans-serif; font-size: 14px; color: #000; font-weight: normal; letter-spacing: -1px;}
@@ -28,27 +28,26 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #top_gnb img{border:0}
 #top_gnb a{text-decoration:none}
 
-#top_gnb {position:relative;font:12px '돋움';width:100%; height:80px; background:#222222;}
-#top_gnb .DB_wrap{position:relative;width:1000px;margin:0 auto;/*비표준=>left:50%;margin-left:-500px*/;height:80px}
-#top_gnb .DB_wrap h1{margin:10px 185px 0 0;float:left; color:#fff; font-size:24px}
+#top_gnb {position:relative;width:100%; height:80px; background:#222222;}
+#top_gnb .DB_wrap{position:relative;width:1850px;margin:0 auto;/*비표준=>left:50%;margin-left:-500px*/;height:80px}
+#top_gnb .DB_wrap h1{margin:10px 25px 0 0;float:left; color:#fff; font-size:0px}
 #top_gnb .DB_wrap h1 a{color:#fff;}
-#top_gnb .DB_wrap .DB_main{float:left;margin-top:15px}
-#top_gnb .DB_wrap .DB_main li{float:left;width:120px;}
-#top_gnb .DB_wrap .DB_main li a{display:block;width:100%;height:100%; color:#fff}
+#top_gnb .DB_wrap .DB_main{float:left;_padding-top:29px}
+#top_gnb .DB_wrap .DB_main li{float:left;width:270px; height:80px; line-height:80px;  text-align:center}
+#top_gnb .DB_wrap .DB_main li a{display:block;width:100%;height:100%; color:#fff; font-size:20px;}
 #top_gnb .DB_wrap .DB_main li.DB_select{}
+#top_gnb .DB_wrap .DB_main li.redbox{background: url("../images/gnb_redbox.jpg");}
 
-#top_gnb .DB_mask{position:absolute;width:100%;min-width:1000px;height:200px/*서브메뉴전체높이*/;overflow:hidden;display:none}
-#top_gnb .DB_mask .DB_move{position:relative;width:100%; background:#222222; _background:url('img/bg.png')  repeat-x center bottom;height:160px;top:-162px/*위로 메뉴숨기기*/;border-bottom:2px solid #59afe4}
-#top_gnb .DB_mask .DB_move .DB_subSet{position:relative;width:1000px;margin:0 auto;/*비표준=>left:50%;margin-left:-500px*/;padding-top:20px;}
-#top_gnb .DB_mask .DB_move .DB_subSet ul{float:left;width:120px;}
-#top_gnb .DB_mask .DB_move .DB_subSet ul:first-child{margin-left:250px}/*비표준=> 첫번째 li에 클래스로 적용*/
-#top_gnb .DB_mask .DB_move .DB_subSet ul li{height:22px;border-left:1px solid #eeeeee;text-indent:5px}
-#top_gnb .DB_mask .DB_move .DB_subSet ul li a{display:block;width:90%;padding:2px;color:#888888;}
+#top_gnb .DB_mask{position:absolute;z-index:9; width:100%;min-width:1000px;height:338px/*서브메뉴전체높이*/;overflow:hidden;display:none}
+#top_gnb .DB_mask .DB_move{position:relative;width:100%; background:url('../images/gnb_overbg.png') repeat-x center 0;height:338px;top:-338px/*위로 메뉴숨기기*/;}
+#top_gnb .DB_mask .DB_move .DB_subSet{position:relative;width:1850px;margin:0 auto;/*비표준=>left:50%;margin-left:-500px*/;padding-top:20px;}
+#top_gnb .DB_mask .DB_move .DB_subSet ul{float:left;width:270px;}
+#top_gnb .DB_mask .DB_move .DB_subSet ul:first-child{margin-left:232px}/*비표준=> 첫번째 li에 클래스로 적용*/
+#top_gnb .DB_mask .DB_move .DB_subSet ul li{text-align:center; font-size: 18px;line-height: 40px;}
+#top_gnb .DB_mask .DB_move .DB_subSet ul li a{display:block;color:#ffffff; font-size:18px;}
 #top_gnb .DB_mask .DB_move .DB_subSet ul li a:hover{color:#59afe4;font-weight:bold;letter-spacing:-1px;}
 #top_gnb .DB_mask .DB_move .DB_subSet ul li.DB_select a{color:#59afe4;font-weight:bold;letter-spacing:-1px;}
-
 #top_gnb .DB_mask .DB_move .DB_close{position:absolute;top:130px;right:10px;cursor:pointer;}
-
 
 #warp .top_select{position:relative; max-width: 1920px; margin:0 auto; background:#222222; height: 40px; border-bottom:1px solid #5a5a5a; }
 #warp .top_select .container{padding-top:13px;}
@@ -58,65 +57,17 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #warp .top_select .container .ts_right li:first-child::before{content: "";}
 #warp .top_select .container .ts_right a{color:#9c9c9c;} 
 
-
-.where {
-display: block;
-_margin: 25px 15px;
-font-size: 11px;
-color: #9c9c9c;
-text-decoration: none;
-font-family: verdana;
-font-style: italic;
-}
-
-.selectbox {
-position: relative;
-width: 60px;
-
-_border: 1px solid #999;
-z-index: 1;
-float:right;
-}
-
-.selectbox:before {
-content: "";
-position: absolute;
-top: 50%;
-right: 15px;
-width: 0;
-height: 0;
-margin-top: -1px;
-border-left: 5px solid transparent;
-border-right: 5px solid transparent;
-border-top: 5px solid #9c9c9c;
-}
-
-.selectbox label {
-position: absolute;
-top: 1px;
-left: 5px;
-padding: 0 0px;
-color: #999;
-z-index: -1;
-}
-
-.selectbox select {
-width: 100%;
-height: auto;
-line-height: normal;
-font-family: inherit;
-padding: 0 10px;
-border: 0;
-opacity: 0;
-filter:alpha(opacity=0);
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-}
-
+/* 셀렉트 박스 */
+.where {display: block;_margin: 25px 15px;font-size: 11px;color: #9c9c9c;text-decoration: none;font-family: verdana;font-style: italic;}
+.selectbox {position: relative;width: 60px;_border: 1px solid #999;z-index: 1;float:right;}
+.selectbox:before {content: "";position: absolute;top: 50%;right: 15px;width: 0;height: 0;margin-top: -1px;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid #9c9c9c;}
+.selectbox label {position: absolute;top: 1px;left: 5px;padding: 0 0px;color: #999;z-index: -1;}
+.selectbox select {width: 100%;height: auto;line-height: normal;font-family: inherit;padding: 0 10px;border: 0;opacity: 0;filter:alpha(opacity=0);-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+/* 셀렉트 박스 */
 
 
 #warp .visual{position:relative; height:810px; background:#000;}
+#warp .visual .visual_img1{background: url("../images/index_slide1.png"); background-size: 100%; max-width:2000px; height:810px;}
 #warp .visual .container{}                  
 
 #warp .content_main{}
