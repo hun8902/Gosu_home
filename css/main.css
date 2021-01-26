@@ -3,7 +3,7 @@
 
 /* CSS Document */
 html,body{padding:0; margin:0;}
-.container{width:1850px; margin:0 auto; }
+.container{width:1850px;margin:0 auto; }
 
 /* Default Setting */
 html, body, div, input, label, select, textarea, button, h1, h2, h3, h4, h5, h6, strong, p, span, a, ul, li, dl, dt, dd, a, ::after, ::before { font-family: 'Noto Sans KR', 'Malgun Gothic', 'Dotum', sans-serif; font-size: 14px; color: #000; font-weight: normal; letter-spacing: -1px;}
@@ -28,7 +28,7 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #top_gnb img{border:0}
 #top_gnb a{text-decoration:none}
 
-#top_gnb {position:relative;width:100%; height:80px; background:#222222;}
+#top_gnb {position:relative;width:100%;  min-width:1850px;  height:80px; background:#222222;}
 #top_gnb .DB_wrap{position:relative;width:1850px;margin:0 auto;/*비표준=>left:50%;margin-left:-500px*/;height:80px}
 #top_gnb .DB_wrap h1{margin:10px 25px 0 0;float:left; color:#fff; font-size:0px}
 #top_gnb .DB_wrap h1 a{color:#fff;}
@@ -49,7 +49,7 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #top_gnb .DB_mask .DB_move .DB_subSet ul li.DB_select a{color:#59afe4;font-weight:bold;letter-spacing:-1px;}
 #top_gnb .DB_mask .DB_move .DB_close{position:absolute;top:130px;right:10px;cursor:pointer;}
 
-#warp .top_select{position:relative; max-width: 1920px; margin:0 auto; background:#222222; height: 40px; border-bottom:1px solid #5a5a5a; }
+#warp .top_select{position:relative;  min-width:1850px;  max-width: 1920px; margin:0 auto; background:#222222; height: 40px; border-bottom:1px solid #5a5a5a; }
 #warp .top_select .container{padding-top:13px;}
 #warp .top_select .container .ts_right{text-align:right; float:right; margin-right:10px; display: inline-block;}
 #warp .top_select .container .ts_right li{display:inline-block; margin:0 9px 0 0;}
@@ -66,41 +66,39 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 /* 셀렉트 박스 */
 
 
-#warp .visual{position:relative; height:810px; background:#000;}
+#warp .visual{position:relative;  min-width:1850px;  height:810px; background:#000;}
 #warp .visual .visual_img1{background: url("../images/index_slide1.png"); background-size: 100%; max-width:2000px; height:810px;}
 #warp .visual .container{}                  
 
-#warp .content_main{}
+#warp .content_main{  min-width:1850px; }
 #warp .content_main .container{}
 
 
-#warp .photo_list{position:relative; height:565px;  }
+#warp .photo_list{position:relative;   min-width:1850px;  height:565px;  }
 #warp .photo_list .container{}
 
 
-#warp .index_form{position:relative; height:530px; background:#373737;}
+#warp .index_form{position:relative;  min-width:1850px;  height:530px; background:#373737;}
 #warp .index_form .container{}
 
-#warp .banner_slide{position:relative; height:215px;  }
+#warp .banner_slide{position:relative;  min-width:1850px;  height:215px;  }
 #warp .banner_slide .container{}
 
-#warp .googlemaps{position:relative; height:400px; background:#eee}
+#warp .googlemaps{position:relative; height:400px;  min-width:1850px; }
 
-#warp .foot_link{position:relative; height:50px; background:#373737;}
+#warp .foot_link{position:relative; height:50px;  min-width:1850px;  background:#373737;}
 #warp .foot_link .container{width:1250px;}
 #warp .foot_link .container .foot_ul{text-align:center; padding-top: 19px;;}
 #warp .foot_link .container .foot_ul li{display:inline-block; margin:0 60px 0 0; font-size:14px; }
 #warp .foot_link .container .foot_ul li::before{padding-right:60px ;content:"┃"; color: #cccccc;}
 #warp .foot_link .container .foot_ul li:first-child::before{content: "";}
 #warp .foot_link .container .foot_ul a{color:#cccccc;} 
-
-
-#warp .foot{position:relative; height:227px; background:#2a2a2a;}
+#warp .foot{position:relative;  min-width:1850px;  height:227px; background:#2a2a2a;}
 #warp .foot .container{position:relative;  width:1250px;}
 #warp .foot .container .copy_1{font-size:14px; color:#8a8a8a; line-height:20px; padding-top:25px; padding-left:20px;}
 #warp .foot .container .copy_1 span{font-size:14px; color:#aeaeae; font-weight:600; padding-top:10px;}
 #warp .foot .container .copy_2{position:absolute;  top:25px; right:25px;}
-.foot_logo{margin-top:50px;    margin-left: 40px; background:url("../images/foot_logo.png"); width: 180px;height: 49px;}
+#warp .foot .container .foot_logo{margin-top:50px;    margin-left: 40px; background:url("../images/foot_logo.png"); width: 180px;height: 49px;}
 /* 셀렉트 박스 */
 .where {display: block;_margin: 25px 15px;font-size: 11px;color: #cccccc;text-decoration: none;font-family: verdana;font-style: italic;}
 .foot_selectbox {position: relative;_width: 60px; padding: 9px 50px 9px 14px; border: 1px solid #cccccc;z-index: 1;float:right;}
