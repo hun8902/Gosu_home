@@ -87,7 +87,24 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #warp .googlemaps{position:relative; height:400px; background:#eee}
 
 #warp .foot_link{position:relative; height:50px; background:#373737;}
-#warp .foot_link .container{}
+#warp .foot_link .container{width:1250px;}
+#warp .foot_link .container .foot_ul{text-align:center; padding-top: 19px;;}
+#warp .foot_link .container .foot_ul li{display:inline-block; margin:0 60px 0 0; font-size:14px; }
+#warp .foot_link .container .foot_ul li::before{padding-right:60px ;content:"┃"; color: #cccccc;}
+#warp .foot_link .container .foot_ul li:first-child::before{content: "";}
+#warp .foot_link .container .foot_ul a{color:#cccccc;} 
+
 
 #warp .foot{position:relative; height:227px; background:#2a2a2a;}
-#warp .foot .container{}
+#warp .foot .container{position:relative;  width:1250px;}
+#warp .foot .container .copy_1{font-size:14px; color:#8a8a8a; line-height:20px; padding-top:25px; padding-left:20px;}
+#warp .foot .container .copy_1 span{font-size:14px; color:#aeaeae; font-weight:600; padding-top:10px;}
+#warp .foot .container .copy_2{position:absolute;  top:25px; right:25px;}
+.foot_logo{margin-top:50px;    margin-left: 40px; background:url("../images/foot_logo.png"); width: 180px;height: 49px;}
+/* 셀렉트 박스 */
+.where {display: block;_margin: 25px 15px;font-size: 11px;color: #cccccc;text-decoration: none;font-family: verdana;font-style: italic;}
+.foot_selectbox {position: relative;_width: 60px; padding: 9px 50px 9px 14px; border: 1px solid #cccccc;z-index: 1;float:right;}
+.foot_selectbox:before {content: "";position: absolute;top: 50%;right: 15px;width: 0;height: 0;margin-top: -1px;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 5px solid #9c9c9c;}
+.foot_selectbox label {position: absolute;top: 1px;left: 5px; padding: 9px 50px 9px 14px;color: #999;z-index: -1;}
+.foot_selectbox select {width: 100%;height: auto;line-height: normal;font-family: inherit;padding: 0 10px;border: 0;opacity: 0;filter:alpha(opacity=0);-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+/* 셀렉트 박스 */
