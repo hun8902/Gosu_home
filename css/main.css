@@ -65,7 +65,6 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 .selectbox select {width: 100%;height: auto;line-height: normal;font-family: inherit;padding: 0 10px;border: 0;opacity: 0;filter:alpha(opacity=0);-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 /* 셀렉트 박스 */
 
-  
 
 #warp .visual{position:relative;  min-width:1850px;  height:810px; background:#000;}
 #warp .visual .visual_img1{background: url("../images/index_slide1.png"); background-size: 100%; max-width:2000px; height:810px;}
@@ -75,9 +74,18 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #warp .content_main .container{}
 
 
+
+#warp .index_com_info{  min-width:1850px; height: 330px; background:url("../images/index_com_bg.png") center 0; }
+#warp .index_com_info .container{position: relative; width:1250px; }
+.index_com_info_t1{font-size: 34px; color:#000000; font-weight: 600; padding-top:48px; text-align:center;}
+.index_com_info_t2{font-size: 16px; color:#444444; font-weight: 500; line-height:24px; padding-top:20px; text-align:center;}
+.index_com_info_t3{font-size: 16px; color:#fff; font-weight: 400; line-height:20px; padding-top:32px; padding-bottom:50px;}
+
+
+
+
 #warp .photo_list{position:relative;   min-width:1850px;  height:565px;  }
 #warp .photo_list .container{}
-
 
 #warp .index_form{position:relative;  min-width:1850px;  height:530px; background:url("../images/index_form_bg.png") center 0;}
 #warp .index_form .container{position: relative; width:1250px;}
@@ -86,7 +94,10 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 .index_form_l_t1{font-size: 24px; color:#fff; font-weight: 500; padding-top:115px;}
 .index_form_l_t2{font-size: 50px; color:#fff; font-weight: 600; line-height:56px; padding-top:20px;}
 .index_form_l_t3{font-size: 16px; color:#fff; font-weight: 400; line-height:20px; padding-top:32px; padding-bottom:50px;}
+.index_com_info_icon{position:relative; margin:0 auto; text-align:center; padding-top:30px; padding-left:80px;}
+.icon1{background:url("../images/willpower.png") no-repeat;}
 
+.ico_gb{height:44px; padding-left:65px; font-size:14px; line-height:16px; margin-right:80px; padding-top:10px; display: inline-block;}
 
 #warp .banner_slide{position:relative;  min-width:1850px;  height:215px;  }
 #warp .banner_slide .container{position:relative; padding-top:64px;}
