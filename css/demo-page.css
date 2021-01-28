@@ -218,17 +218,6 @@ h3 {
   border-bottom: #333 solid 2px;
 }
 
-.footer {
-  overflow: hidden;
-  width: auto;
-  margin-top: 6em;
-  font-size: .9em;
-}
-
-.footer a {
-  text-decoration: none;
-}
-
 .credit {
   font-size: .8em;
   font-weight: normal;

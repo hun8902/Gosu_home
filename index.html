@@ -14,7 +14,8 @@
 	<!-- <link rel="stylesheet" href="css/swiper_layout.css"> -->
 	
 	<!--<link rel="stylesheet" href="plugin/swiper/dist/css/swiper.css">-->
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 	<!-- animate -->
 	<link rel="stylesheet" href="css/animate.min.css">
 	<!-- popup -->
@@ -166,35 +167,72 @@
 
 				</div>
 				<div class="index_form_r">
-					ㅁㅁㅁ
+					<div class="submit_form">
+						<table class="submit_form_table">
+							<tr>
+								<td class="input_labal">이름</td>
+								<td class="input_size">
+									<input type="text" class="index_input"/>	
+								</td>
+								<td rowspan="2" calss="index_submit">
+									<input type="image" src="images/index_submit.png" alt="전송"/>
+								</td>
+							</tr>
+							<tr>
+								<td class="input_labal">연락처</td>
+								<td>
+									<input type="text" class="index_input"/>	
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2">
+									<div class="checks">
+										<input type="checkbox" id="ex_chk1"> 
+										<label for="ex_chk1">개인정보 취급방침 동의 (필수)</label><span> [보기]</span>
+									</div>
+									<div class="checks">
+										<input type="checkbox" id="ex_chk2"> 
+										<label for="ex_chk2">이용약관 및 개인정보 수집동의 (필수)</label><span> [보기]</span>
+									</div>
+									<div class="checks">
+										<input type="checkbox" id="ex_chk3"> 
+										<label for="ex_chk3">마케팅 및 개인정보 제3자 제공동의 (선택)</label><span> [보기]</span>
+								    </div>
 
+								</td>
+
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="banner_slide">
 			<div class="container">
-				<!-- Swiper -->
 				<div class="swiper-container">
 					<div class="swiper-wrapper">
-					<div class="swiper-slide">Slide 1</div>
-					<div class="swiper-slide">Slide 2</div>
-					<div class="swiper-slide">Slide 3</div>
-					<div class="swiper-slide">Slide 4</div>
-					<div class="swiper-slide">Slide 5</div>
-					<div class="swiper-slide">Slide 6</div>
-					<div class="swiper-slide">Slide 7</div>
-					<div class="swiper-slide">Slide 8</div>
-					<div class="swiper-slide">Slide 9</div>
-					<div class="swiper-slide">Slide 10</div>
+					  <div class="swiper-slide">Slide 1</div>
+					  <div class="swiper-slide">Slide 2</div>
+					  <div class="swiper-slide">Slide 3</div>
+					  <div class="swiper-slide">Slide 4</div>
+					  <div class="swiper-slide">Slide 5</div>
+					  <div class="swiper-slide">Slide 6</div>
+					  <div class="swiper-slide">Slide 7</div>
+					  <div class="swiper-slide">Slide 8</div>
+					  <div class="swiper-slide">Slide 9</div>
+					  <div class="swiper-slide">Slide 10</div>
 					</div>
 					<!-- Add Pagination -->
 					<div class="swiper-pagination"></div>
 					<!-- Add Arrows -->
 					<div class="swiper-button-next"></div>
 					<div class="swiper-button-prev"></div>
-				</div>
-				<ul class="slide_banner">
+				  </div>
+
+
+				<!--<ul class="slide_banner">
 					<li><a href="#"><img src="images/index_bn_img1.png"></a></li>
 					<li><a href="#"><img src="images/index_bn_img2.png"></a></li>
 					<li><a href="#"><img src="images/index_bn_img3.png"></a></li>
@@ -207,6 +245,7 @@
 					<div class="index_bn_left"><a href="#"><img src="images/index_bn_left.png"></a></div>
 					<div class="index_bn_right"><a href="#"><img src="images/index_bn_right.png"></a></div>
 				</div>
+			-->
 			</div>
 		</div>
 
@@ -275,11 +314,12 @@
 <!-- silder -->
 
 
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <!-- Magnific Popup core JS file -->
 <script src="plugin/magnific-popup/jquery.magnific-popup.js"></script>
 <script src="js/jquery.DB_naviFullWideMove.min.js"></script>
+
 
 <script src="js/main.js"></script>
 

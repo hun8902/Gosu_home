@@ -22,7 +22,7 @@ table {width: 100%; border-collapse: collapse; border-spacing: 0; table-layout: 
 textarea {resize: none; outline: 0; vertical-align: top;}
 button {display: inline-block; font-family: inherit; text-decoration: none; background: transparent; border: none; outline: 0; white-space: nowrap; vertical-align: top; cursor: pointer;}
 .white-popup {position: relative; background: #FFF; padding: 20px; width: auto; max-width: 500px;margin: 20px auto; }
-.swiper-container {width: 600px; height: 300px;}
+.s1wiper-container {width: 600px; height: 300px;}
 
 #top_gnb *{margin:0;padding:0;list-style:none}
 #top_gnb img{border:0}
@@ -65,51 +65,30 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 .selectbox select {width: 100%;height: auto;line-height: normal;font-family: inherit;padding: 0 10px;border: 0;opacity: 0;filter:alpha(opacity=0);-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 /* 셀렉트 박스 */
 
+/* 체크 박스 */
+.checks {position: relative; padding-bottom:5px;}
+.checks input[type="checkbox"] {position: absolute;  width: 1px;  height: 1px;  padding: 0;  margin: -1px;  overflow: hidden; clip:rect(0,0,0,0);  border: 0}
+.checks input[type="checkbox"] + label {color: #fff;  display: inline-block;  position: relative;  cursor: pointer;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none;}
+.checks span{color:#fff; margin-left:10px;}
+.checks input[type="checkbox"] + label:before {content: ' ';  display: inline-block;  width: 14px; height: 14px; line-height: 14px;  margin: -2px 8px 0 0;  text-align: center;   vertical-align: middle;  background: #fafafa;  color:#fff;  border-radius : 3px;  box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);}
+.checks input[type="checkbox"] + label:active:before,
+.checks input[type="checkbox"]:checked + label:active:before { box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);}
+.checks input[type="checkbox"]:checked + label:before {content: '\2714'; color: #fff; font-size:12px; background: #ff0e26;}
+/* 체크 박스 */
+
+/* 버튼색 */
 .darkbtn{border: 1px solid #000000;}
 .wwhitebtn{border: 1px solid #ffffff; color:#fff !important;}
+/* 버튼색 */
+
 .top_title{font-size: 32px; color:#000000; font-weight: 600; padding-top:60px; padding-bottom:20px; text-align:center;}
 
-.scale {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/
-  }
-  .scale:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-  }
-  .img {width:325px; height:280px; overflow:hidden }   /* 부모를 벗어나지 않고 내부 이미지만 확대 */
-    
-  .swiper-container {
-    width: 100%;
-    height: 100%;
-  }
+.scale {transform: scale(1);  -webkit-transform: scale(1);  -moz-transform: scale(1);  -ms-transform: scale(1);  -o-transform: scale(1);  transition: all 0.3s ease-in-out;   /* 부드러운 모션을 위해 추가*/}
+.scale:hover {transform: scale(1.2);  -webkit-transform: scale(1.2);  -moz-transform: scale(1.2); -ms-transform: scale(1.2);  -o-transform: scale(1.2);}
+.img {width:325px; height:280px; overflow:hidden }   /* 부모를 벗어나지 않고 내부 이미지만 확대 */
+.swiper-container {width: 100%;  height: 100%;}
+.swiper-slide {text-align: center;  font-size: 18px;  background: #fff;  display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;  display: flex;  -webkit-box-pack: center;  -ms-flex-pack: center;  -webkit-justify-content: center;  justify-content: center;  -webkit-box-align: center;  -ms-flex-align: center;  -webkit-align-items: center;  align-items: center;}
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
 
 
 #warp .visual{position:relative;  min-width:1850px;  height:810px; background:#000;}
@@ -138,14 +117,24 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 
 #warp .index_form{position:relative;  min-width:1850px;  height:530px; background:url("../images/index_form_bg.png") center 0;}
 #warp .index_form .container{position: relative; width:1250px;}
-.index_form_l{position:relative; display:inline-block; width: 422px;}
-.index_form_r{position:relative; display:inline-block; }
+.index_form_l{position:relative; display:inline-block; width: 600px;}
+.index_form_r{position:relative; display:inline-block; width: 600px; padding-top:175px; vertical-align: top;}
 .index_form_l_t1{font-size: 24px; color:#fff; font-weight: 500; padding-top:115px;}
 .index_form_l_t2{font-size: 50px; color:#fff; font-weight: 600; line-height:56px; padding-top:20px;}
-.index_form_l_t3{font-size: 16px; color:#fff; font-weight: 400; line-height:20px; padding-top:32px; padding-bottom:50px;}
+.index_form_l_t3{font-size: 16px; color:#fff; font-weight: 400; line-height:22px; padding-top:32px; padding-bottom:50px;}
 .index_com_info_icon{position:relative; margin:0 auto; text-align:center; padding-top:30px; padding-left:80px;}
 .index_com_info_btn{text-align: center; margin: 0 auto; padding-top: 30px;}
 .icon1{background:url("../images/willpower.png") no-repeat;}
+
+
+.submit_form_table{position: relative; _width:530px;}
+.submit_form_table tr{}
+.submit_form_table tr td{font-size:14px; line-height:18px; vertical-align: top;}
+.index_input{width: 260px; height: 46px; border:1px solid #fff; padding-left: 20px;;}
+.index_submit{width: 182px; height: 139px;}
+.index_submit img{border:0; padding:0; margin:0;}
+.input_labal{text-align:right; font-size:16px; height: 55px; font-weight:600; color:#fff; padding-right:22px; vertical-align: middle !important;}
+.input_size{width:270px; height:55px;;}
 
 .ico_gb{height:44px; padding-left:65px; font-size:14px; line-height:16px; margin-right:80px; padding-top:10px; display: inline-block;}
 
