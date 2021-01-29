@@ -1,6 +1,8 @@
 
 
 $(document).ready(function() {
+
+
     $('#top_gnb').DB_naviFullWideMove({
         key:'c37080',                 //라이센스키
         pageNum:3,           //메인메뉴 페이지인식(1~)
@@ -46,9 +48,39 @@ var mySwiper = new Swiper('.swiper-container', {
     prevEl: '.swiper-button-prev',
   },
 
-})
+});
 
+function zoomIn(event) {
+  event.target.style.transform = "scale(1.3)";
+  event.target.style.zIndex = 1;
+  event.target.style.transition = "all 0.5s";
+}
 
+function zoomOut(event) {
+  event.target.style.transform = "scale(1)";
+  event.target.style.zIndex = 0;
+  event.target.style.transition = "all 0.5s";
+};
+
+var swiper = new Swiper('.swiper-container_photo', {
+  slidesPerView: 7,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
 
 var swiper = new Swiper('.swiper-container_banner', {
   slidesPerView: 7,

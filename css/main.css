@@ -178,3 +178,8 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 
 .swiper_position_b{width: 1720px; overflow: hidden; margin-left:70px;}
 .top_110{top:110px !important;}
+
+.swiper_position_p{padding-top:30px;}
+.photo_border{border:1px solid #ebebeb; width: 278px; height: 333x;;}
+.photo_border:hover{border:1px solid #ebebeb; width: 278px; height: 333x; box-shadow: 3px 3px 7px #efefef;}
+.photo_list_btn{text-align: center; margin:0 auto; padding-top:30px;}
