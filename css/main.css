@@ -110,10 +110,11 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #warp .index_com_info .container .index_com_info_t3{font-size: 16px; color:#fff; font-weight: 400; line-height:20px; padding-top:32px; padding-bottom:50px;}
 
 
-
+.rank_title{font-size:14px; color:#000; padding-top:0;}
+.rank_txt1{font-size:14px; color:#000; padding-top:0;}
 
 #warp .photo_list{position:relative;   min-width:1850px;  height:565px;  }
-#warp .photo_list .container{}
+#warp .photo_list .container{overflow: hidden;}
 
 #warp .index_form{position:relative;  min-width:1850px;  height:530px; background:url("../images/index_form_bg.png") center 0;}
 #warp .index_form .container{position: relative; width:1250px;}
