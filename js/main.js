@@ -1,7 +1,4 @@
-
-
 $(document).ready(function() {
-
 
     $('#top_gnb').DB_naviFullWideMove({
         key:'c37080',                 //라이센스키
@@ -21,7 +18,7 @@ $(document).ready(function() {
   $(this).siblings('label').text(select_name);
   });
 });
-
+new SwitchMenu('#mySubMenu', ['#subpage1', '#subpage2', '#subpage3', '#subpage4', '#subpage5']);
 
 $('.open-popup-link').magnificPopup({
   type:'inline',
@@ -49,6 +46,7 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 
 });
+
 
 function zoomIn(event) {
   event.target.style.transform = "scale(1.2)";
