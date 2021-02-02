@@ -208,18 +208,18 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 
 .index_analy1{background:url("../images/index_analy1.png") no-repeat;left:0px;}
 
-
 .ana_table{position: relative; float:right; margin-top:40px; width:410px;}
 .ana_table tr{}
 .ana_table tr td{font-size:14px; line-height:18px; vertical-align: top;}
 .ana_table{ _width:840px;}
-
+.analy_box_size{width:1700px; height: 700px; overflow: hidden;}
 .swiper-nav{float:right; padding-top:30px; }
 .swiper_number{font-size:16px; color:#000000; width:auto !important; line-height: 16px; padding:0 5px;}
 .w840{width: 840px; float:right}
 .w1600{width:1600px;}
 .w1700{width:1600px; margin-right: 100px;}
-.swiper-pos{float:right; z-index: 9; margin-right:5px;}
+.swiper-pos{float:right; z-index: 99; margin-right:5px;}
+.swiper-pagination-current{font-weight:600;}
 
 .submit_form_table{position: relative; _width:530px;}
 .submit_form_table tr{}
