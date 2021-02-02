@@ -47,6 +47,16 @@ var mySwiper = new Swiper('.swiper-container', {
 
 });
 
+var swiper = new Swiper('.swiper-analy', {
+  pagination: {
+    el: '.swiper_number',
+    type: 'fraction',
+  },
+  navigation: {
+    nextEl: '.arr_right',
+    prevEl: '.arr_left',
+  },
+});
 
 function zoomIn(event) {
   event.target.style.transform = "scale(1.2)";
