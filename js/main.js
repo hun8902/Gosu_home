@@ -31,7 +31,10 @@ $('.animate').scrolla({
 });
 //슬라이더
 var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
   loop: true,
 
   // If we need pagination
@@ -46,8 +49,32 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 
 });
+var swiper = new Swiper('.youtube-container', {
+  // Optional parameters
+  autoplay: {
+     delay: 10000,
+     disableOnInteraction: true,
+   },
+  loop: true,
+  slidesPerView: 'auto',
+  spaceBetween: 30,
+  pagination: {
+    el: '.youtube_number',
+    type: 'fraction',
+  },
+  navigation: {
+    nextEl: '.you_right',
+    prevEl: '.you_left',
+  },
+});
 
 var swiper = new Swiper('.swiper-analy', {
+  autoplay: {
+    delay: 5500,
+    disableOnInteraction: true,
+  },
+    // Optional parameters
+  loop: true,
   pagination: {
     el: '.swiper_number',
     type: 'fraction',
