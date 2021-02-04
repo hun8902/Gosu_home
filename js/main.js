@@ -29,6 +29,12 @@ $('.animate').scrolla({
 	mobile: true,
 	once: true
 });
+
+var swiper = new Swiper('.index_bottom-container', {
+
+  direction: 'vertical',
+});
+
 //슬라이더
 var mySwiper = new Swiper('.swiper-container', {
   autoplay: {
