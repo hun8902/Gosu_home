@@ -31,8 +31,18 @@ $('.animate').scrolla({
 });
 
 var swiper = new Swiper('.index_bottom-container', {
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  loop: true,
 
   direction: 'vertical',
+  // Navigation arrows
+  navigation: {
+    nextEl: '.btn_down',
+    prevEl: '.btn_up',
+  },
 });
 
 //슬라이더
