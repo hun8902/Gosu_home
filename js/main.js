@@ -30,6 +30,20 @@ $('.animate').scrolla({
 	once: true
 });
 
+var swiper = new Swiper('.indexvisual-container', {
+  // Optional parameters
+  autoplay: {
+     delay: 10000,
+     disableOnInteraction: true,
+   },
+  loop: true,
+  navigation: {
+    nextEl: '.visual_right_btn',
+    prevEl: '.visual_left_btn',
+  },
+});
+
+
 var swiper = new Swiper('.index_bottom-container', {
   autoplay: {
     delay: 2500,
@@ -65,6 +79,8 @@ var mySwiper = new Swiper('.swiper-container', {
   },
 
 });
+
+
 var swiper = new Swiper('.youtube-container', {
   // Optional parameters
   autoplay: {
