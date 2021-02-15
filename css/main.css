@@ -89,11 +89,11 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 .img {width:325px; height:280px; overflow:hidden }   /* 부모를 벗어나지 않고 내부 이미지만 확대 */
 .swiper-container {width: 100%;  height: 100%;}
 .swiper-slide {text-align: center;  font-size: 18px;  background: #fff;  display: -webkit-box;  display: -ms-flexbox;  display: -webkit-flex;  display: flex;  -webkit-box-pack: center;  -ms-flex-pack: center;  -webkit-justify-content: center;  justify-content: center;  -webkit-box-align: center;  -ms-flex-align: center;  -webkit-align-items: center;  align-items: center;}
-
+#warp .visual .container2{width: 1200px;; height:810px; position: relative; margin:0;}   
 
 /* 비주얼 */
 #warp .visual{position:relative;  min-width:1850px;  max-width: 2000px; margin:0 auto; overflow: hidden;  height:810px; }
-#warp .visual .visual_img1{position:absolute; width: 100%; height:100%; background: url("../images/index_slide1.png") no-repeat center 0; background-size: 100%; max-width:2000px; height:810px;}
+#warp .visual .visual_img1{position:absolute; width: 100%; height:100%; left:0; top:0; background: url("../images/index_slide1.png") no-repeat center 0; background-size: 100%; max-width:2000px; height:810px;}
 #warp .visual .container{width: 1200px;; height:810px; position: relative;}                   
 #warp .visual .text_box{position: relative; z-index:10; color:#fff;}
 #warp .visual .visual_txt1{font-size:34px; color:#fff; padding-top:240px;}
@@ -104,9 +104,9 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #warp .content_main .container{}
 .promo_obj{position: absolute; z-index:9; top:0; right:-260px;}
 /* 비주얼 */
-#warp .top5_list{height:540px;}
+#warp .top5_list{height:540px;  overflow: hidden;}
 #warp .top5_list.container{position: relative; width:1250px; }
-#warp .photo_list{height:665px;}
+#warp .photo_list{height:665px; overflow: hidden;}
 #warp .photo_list.container{position: relative; _width:1250px; }
 
 #warp .index_com_info{  min-width:1850px; max-width: 2000px; margin:0 auto; height: 330px; background:url("../images/index_com_bg.png") center 0; }
@@ -148,6 +148,40 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 .icon2{background:url("../images/i_statistics.png") no-repeat;}
 .icon3{background:url("../images/i_targeted.png") no-repeat;}
 .icon4{background:url("../images/i_trophy.png") no-repeat;}
+
+/*TAB CSS*/
+
+ul.tabs{text-align: center; cursor: default; padding-bottom:11px; border-bottom: 2px solid #e0e0e0; color: #000000; display:inline-block; padding-left:10px; padding-right:10px;}
+ul.tabs1 li a{color: #000000; cursor: pointer; border-radius: 25px; padding:7px 20px;}
+
+
+#page1_tab{text-align: center; padding-top:15px;}
+ul.tabs li {
+  display:inline-block;
+
+}
+ul.tabs li a {
+  color: #000000; cursor: pointer; border-radius: 25px; padding:7px 20px;
+}
+ul.tabs li.active a {
+  color: #fff;
+}
+ul.tabs li a:hover {
+  color: #fff;
+  background: linear-gradient(-45deg, #500b28, #e21c34); box-shadow: .15em .15em .8em rgba(0,0,0,.4);
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  {
+  color: #fff; cursor: pointer; border-radius: 25px;
+  background: linear-gradient(-45deg, #500b28, #e21c34); box-shadow: .15em .15em .8em rgba(0,0,0,.4);
+}
+
+/*Tab Conent CSS*/
+.tab_container {
+  text-align:center;
+}
+.tab_content {
+  padding: 0;
+}
 
 
 #warp .analy_list{position:relative;    height:700px;  }
@@ -379,5 +413,6 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 
 .swiper_position_p{padding-top:30px;}
 .photo_border{border:1px solid #ebebeb; width: 278px; height: 333x;;}
+.photo_border img{width: 278px; height: 333x;}
 .photo_border:hover{border:1px solid #ebebeb; width: 278px; height: 333x; box-shadow: 3px 3px 7px #efefef;}
 .photo_list_btn{text-align: center; margin:0 auto; padding-top:30px;}
