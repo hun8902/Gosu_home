@@ -412,7 +412,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {
 .top_110{top:110px !important;}
 
 .swiper_position_p{padding-top:30px;}
-.photo_border{border:1px solid #ebebeb; width: 278px; height: 333x;;}
-.photo_border img{width: 278px; height: 333x;}
-.photo_border:hover{border:1px solid #ebebeb; width: 278px; height: 333x; box-shadow: 3px 3px 7px #efefef;}
-.photo_list_btn{text-align: center; margin:0 auto; padding-top:30px;}
+.photo_border{border:1px solid #ebebeb; width: 278px !important; height: 333px !important; }
+.photo_border img{width: 100%; }
+.photo_border:hover{border:1px solid #ebebeb; width: 278px; height: 333px; box-shadow: 3px 3px 7px #efefef;}
+.photo_list_btn{text-align: center; margin:0 auto; padding-top:15px;}

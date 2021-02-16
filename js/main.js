@@ -51,7 +51,7 @@ var mySwiper = new Swiper('.swiper-container', {
 });
 
 var swiper = new Swiper('.swiper-container_photo', {
-  slidesPerView: 7,
+  slidesPerView: 6,
   spaceBetween: 30,
   slidesPerGroup: 1,
   loop: true,
@@ -83,11 +83,7 @@ var swiper = new Swiper('.swiper-container_banner', {
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  }
 });
 
 var swiper = new Swiper('.youtube-container', {
