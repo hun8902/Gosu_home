@@ -37,6 +37,46 @@
 			</ul>
 
 		</div>
+		<div id="ab_form">
+			<div class="obj_top"><a href="#"><img src="images/top_bt.png"></a></div>
+			<div class="obj_bg">
+				<form name="sentMessage" method="post"  action="<?php echo G5_THEME_URL?>/process.php"  class="landing_form" novalidate="">
+					<input name="has_data" type="hidden" value="1">
+					<input name="landing" type="hidden" value="GGT홈페이지">
+					<input name="this_url" type="hidden" value="http://ggtrading.kr/">
+					<input name="requset_url" type="hidden" value="">
+					<div class="popup_form">
+						<input type="text" id="representative" name="representative" value="" class="scroll_input" placeholder="이름을 입력해주세요" data-message="이름을 입력해주세요">
+						<input type="phone" name="phone" pattern="[0-9]*" inputmode="numeric"  class="phone-number-check scroll_input" placeholder="휴대폰 번호(숫자만)" data-message="연락처를 입력해주세요">
+						<div class="checks_s">
+							<input type="checkbox" id="ex_chk1"> 
+							<label for="ex_chk1">개인정보 취급방침 동의 (필수)</label><span class="aqpopup_view1"> [보기]</span>
+						</div>
+						<div class="checks_s">
+							<input type="checkbox" id="ex_chk2"> 
+							<label for="ex_chk2">이용약관 및 개인정보 수집동의 (필수)</label><span class="aqpopup_view2"> [보기]</span>
+						</div>
+						<div class="checks_s">
+							<input type="checkbox" id="ex_chk3"> 
+							<label for="ex_chk3">광고성 문자메시지 수신 동의(필수)</label>
+						</div>
+					</div>
+					<div class="p_agree_mo_p1 agp">
+						<div href="" class="agpopup_close"><img src="images/ag_close.png" alt="닫기"></div>
+						<textarea class="long_text" style="width:100%">개인정보 취급방침 동의
+						 </textarea>
+					</div>
+
+					<div class="p_agree_mo_p2 agp">
+						<div href="" class="agpopup_close"><img src="images/ag_close.png" alt="닫기"></div>
+						<textarea class="long_text" style="width:100%">이용약관
+						 </textarea>
+					</div>							
+
+					<div class="poup_submit_btn"><input type="image" src="images/poup_submit_btn.png"></div>
+				</form>
+			</div>
+		</div>
 
 		<!-- 탑 메뉴 -->
 		<div class="top_select">
@@ -128,6 +168,7 @@
 					<div class="d_text"><span class="d_move c4" data-delay="2000" data-left="0"><a href="#" class="hvr-bounce-to-right wwhitebtn">회사소개 바로가기 </a></span></div>
 				</li>
 			</ul>
+			
 			<div class="d_arrow">
 				<span class="d_prev"><img src="images/visual_left.png"></span>
 				<span class="d_next"><img src="images/visual_right.png"></span>
@@ -136,6 +177,7 @@
 				<li></li>
 				<li></li>
 			</ul>
+			
 		</div>
 		
 		
@@ -166,6 +208,7 @@
 				</div>
 			</div>
 			<div class="container">
+				
 
 
 				<div class="youtube_contaiter">
@@ -538,16 +581,33 @@
 								<td colspan="2">
 									<div class="checks">
 										<input type="checkbox" id="ex_chk1"> 
-										<label for="ex_chk1">개인정보 취급방침 동의 (필수)</label><span> [보기]</span>
+										<label for="ex_chk1">개인정보 취급방침 동의 (필수)</label><span class="popup_view1"> [보기]</span>
 									</div>
 									<div class="checks">
 										<input type="checkbox" id="ex_chk2"> 
-										<label for="ex_chk2">이용약관 및 개인정보 수집동의 (필수)</label><span> [보기]</span>
+										<label for="ex_chk2">이용약관 및 개인정보 수집동의 (필수)</label><span class="popup_view2"> [보기]</span>
 									</div>
 									<div class="checks">
 										<input type="checkbox" id="ex_chk3"> 
-										<label for="ex_chk3">마케팅 및 개인정보 제3자 제공동의 (선택)</label><span> [보기]</span>
+										<label for="ex_chk3">마케팅 및 개인정보 제3자 제공동의 (선택)</label><span class="popup_view3"> [보기]</span>
 								    </div>
+
+									<div class="agree_mo_p1 agp">
+										<div href="" class="agpopup_close"><img src="images/ag_close.png" alt="닫기"></div>
+										<textarea class="long_text" style="width:100%">개인정보 취급방침 동의
+										 </textarea>
+									</div>
+				
+									<div class="agree_mo_p2 agp">
+										<div href="" class="agpopup_close"><img src="images/ag_close.png" alt="닫기"></div>
+										<textarea class="long_text" style="width:100%">이용약관
+										 </textarea>
+									</div>			
+									<div class="agree_mo_p3 agp">
+										<div href="" class="agpopup_close"><img src="images/ag_close.png" alt="닫기"></div>
+										<textarea class="long_text" style="width:100%">이용약관
+										 </textarea>
+									</div>				
 
 								</td>
 

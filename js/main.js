@@ -148,15 +148,51 @@ $('.animate').scrolla({
 
 
 $(document).ready(function() {
+  $('.aqpopup_view1').click(function(){
+    $('.p_agree_mo_p1').fadeIn();
+    $('.p_agree_mo_p2').fadeOut();
+  });
+  
+  $('.aqpopup_view2').click(function(){
+    $('.p_agree_mo_p2').fadeIn();
+    $('.p_agree_mo_p1').fadeOut();
+  });
+  
+  $('.popup_view1').click(function(){
+    $('.agree_mo_p3').fadeOut();
+    $('.agree_mo_p2').fadeOut();
+    $('.p_agree_mo_p1').fadeOut();
+    $('.p_agree_mo_p2').fadeOut();
+    $('.agree_mo_p1').fadeIn();
+  });
+  $('.popup_view2').click(function(){
+    $('.agree_mo_p1').fadeOut();
+    $('.agree_mo_p2').fadeIn();
+    $('.p_agree_mo_p1').fadeOut();
+    $('.p_agree_mo_p2').fadeOut();
+    $('.agree_mo_p3').fadeOut();
+  });
+  
+  $('.popup_view3').click(function(){
+    $('.agree_mo_p2').fadeOut();
+    $('.agree_mo_p1').fadeOut();
+    $('.p_agree_mo_p1').fadeOut();
+    $('.p_agree_mo_p2').fadeOut();
+    $('.agree_mo_p3').fadeIn();
+  });
+  $('.agpopup_close').click(function(){
+    $('.agp').fadeOut();
+  });
   // 기존 css에서 플로팅 배너 위치(top)값을 가져와 저장한다.
 	var floatPosition = parseInt($("#ab_navi").css('top'));
+  var floatPosition1 = parseInt($("#ab_form").css('top'));
 	// 250px 이런식으로 가져오므로 여기서 숫자만 가져온다. parseInt( 값 );
 
 	$(window).scroll(function() {
 		// 현재 스크롤 위치를 가져온다.
 		var scrollTop = $(window).scrollTop();
 		var newPosition = scrollTop + floatPosition + "px";
-
+    var newPosition1 = scrollTop + floatPosition1 + "px"; 
 		/* 애니메이션 없이 바로 따라감
 		 $("#floatMenu").css('top', newPosition);
 		 */
@@ -164,6 +200,12 @@ $(document).ready(function() {
 		$("#ab_navi").stop().animate({
 			"top" : newPosition
 		}, 1000);
+
+    $("#ab_form").stop().animate({
+			"top" : newPosition1
+		}, 1300);
+
+    
 
 	}).scroll();
 

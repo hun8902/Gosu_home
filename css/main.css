@@ -69,12 +69,22 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 /* 체크 박스 */
 .checks {position: relative; padding-bottom:5px;}
 .checks input[type="checkbox"] {position: absolute;  width: 1px;  height: 1px;  padding: 0;  margin: -1px;  overflow: hidden; clip:rect(0,0,0,0);  border: 0}
-.checks input[type="checkbox"] + label {color: #fff;  display: inline-block;  position: relative;  cursor: pointer;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none;}
+.checks input[type="checkbox"] + label {color: #ffffff;  display: inline-block;  position: relative;  cursor: pointer;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none;}
 .checks span{color:#fff; margin-left:10px;}
 .checks input[type="checkbox"] + label:before {content: ' ';  display: inline-block;  width: 14px; height: 14px; line-height: 14px;  margin: -2px 8px 0 0;  text-align: center;   vertical-align: middle;  background: #fafafa;  color:#fff;  border-radius : 3px;  box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);}
 .checks input[type="checkbox"] + label:active:before,
 .checks input[type="checkbox"]:checked + label:active:before { box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);}
 .checks input[type="checkbox"]:checked + label:before {content: '\2714'; color: #fff; font-size:12px; background: #ff0e26;}
+
+.checks_s {position: relative; padding-bottom:5px;}
+.checks_s input[type="checkbox"] {position: absolute;  width: 1px;  height: 1px;  padding: 0;  margin: -1px;  overflow: hidden; clip:rect(0,0,0,0);  border: 0}
+.checks_s input[type="checkbox"] + label {color: #aaaaaa; font-size:11px; display: inline-block;  position: relative;  cursor: pointer;  -webkit-user-select: none;  -moz-user-select: none; -ms-user-select: none;}
+.checks_s span{color:#aaaaaa; margin-left:10px;}
+.checks_s input[type="checkbox"] + label:before {content: ' ';  display: inline-block;  width: 11px; height: 11px; line-height: 11px;  margin: -2px 8px 0 0;  text-align: center;   vertical-align: middle;  background: #fafafa;  color:#fff;  border-radius : 3px;  box-shadow: 0px 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);}
+.checks input[type="checkbox"] + label:active:before,
+.checks_s input[type="checkbox"]:checked + label:active:before { box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);}
+.checks_s input[type="checkbox"]:checked + label:before {content: '\2714'; color: #fff; font-size:12px; background: #ff0e26;}
+.checks_s span{font-size:11px; line-height: 14px; cursor: pointer;}
 /* 체크 박스 */
 
 /* 버튼색 */
@@ -245,9 +255,22 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
 #d_tab37 .d_arrow .d_prev{position:absolute;left:-100px;cursor:pointer;; z-index:99;}
 #d_tab37 .d_arrow .d_next{position:absolute;right:-100px;cursor:pointer; z-index:99;}
 #d_tab37 .d_btn{position:absolute;width:100%;bottom:20px;text-align:center}
-#d_tab37 .d_btn li{display:inline-block;*display:inline;zoom:1;width:14px;height:14px;background:url('images/main_btn_off.png') no-repeat;margin:0 3px;cursor:pointer}
-#d_tab37 .d_btn li.on{background:url('images/main_btn_on.png') no-repeat}
+#d_tab37 .d_btn li{display:inline-block;*display:inline;zoom:1;width:14px;height:14px;_background:url('images/main_btn_off.png') no-repeat;margin:0 3px;cursor:pointer}
+#d_tab37 .d_btn li.on{_background:url('images/main_btn_on.png') no-repeat}
 
+#ab_form{	position: absolute;	width: 309px;	right: 100px;	top: 610px;  z-index: 99;}
+.obj_top{margin:0 auto; text-align:center; z-index:9;}
+.obj_bg{width:309px; height:309px; background:url('../images/obj_bg.png') no-repeat; margin-top:-30px}
+.scroll_input{width: 216px; height:33px; line-height: 33px; font-size:16px; color:#aaaaaa; padding-left:25px; margin-bottom:4px;}
+.popup_form{padding:100px 0 0 50px}
+.agp textarea{height: 100%;}
+.poup_submit_btn{text-align: center; padding-top:17px;;}
+.p_agree_mo_p1{position:absolute;  top:0px; margin-left:-20px; width:88%; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.p_agree_mo_p2{position:absolute;  top:0px; margin-left:-20px; width:88%; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.agree_mo_p1{position:absolute; top:50px; margin-left:-250px; width:88%; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.agree_mo_p2{position:absolute; top:50px; margin-left:-250px; width:88%; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.agree_mo_p3{position:absolute; top:50px; margin-left:-250px; width:88%; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.agpopup_close { position: absolute; margin-top: -70px; right: -1px;}
 /*유튜브 */
 .youtube_main{position: relative; height:665px;}
 .youtube_main .container{_width: 100%; max-width: 2000px;}
