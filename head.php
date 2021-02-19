@@ -21,9 +21,9 @@
 <!--nav-->
 <div id="top_gnb">
     <div class="DB_wrap">
-        <h1><a href="#"><img src="images/logo.png" alt="logo"/></a></h1>
+        <h1><a href="index.php"><img src="images/logo.png" alt="logo"/></a></h1>
         <ul class="DB_main">					
-            <li><a href="#">회사소개</a></li>
+            <li><a href="sub0101.php">회사소개</a></li>
             <li><a href="#">CH고수TV</a></li>
             <li><a href="#">상품안내</a></li>
             <li><a href="#">성과인증</a></li>

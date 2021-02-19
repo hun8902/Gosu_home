@@ -1,3 +1,52 @@
+$("#center_nav1 img.flag").addClass("flagvisibility");
+
+$("#center_nav1 dt a").click(function() {
+  $("#center_nav1 dd ul").toggle();
+});
+
+$("#center_nav1 dd ul li a").click(function() {
+  var text = $(this).html();
+  $("#center_nav1 dt a span").html(text);
+  $("#center_nav1 dd ul").hide();
+  /* $("#result").html("Selected value is: " + getSelectedValue("sample"));*/
+});
+
+function getSelectedValue(id) {
+  return $("#" + id).find("dt a span.value").html();
+}
+
+$(document).bind('click', function(e) {
+  var $clicked = $(e.target);
+  if (!$clicked.parents().hasClass("dropdown"))
+    $("#center_nav1 dd ul").hide();
+});
+
+$("#center_nav1 img.flag").toggleClass("flagvisibility");
+
+$("#center_nav2 img.flag").addClass("flagvisibility");
+
+$("#center_nav2 dt a").click(function() {
+  $("#center_nav2 dd ul").toggle();
+});
+
+$("#center_nav2 dd ul li a").click(function() {
+  var text = $(this).html();
+  $("#center_nav2 dt a span").html(text);
+  $("#center_nav2 dd ul").hide();
+  /* $("#result").html("Selected value is: " + getSelectedValue("sample"));*/
+});
+
+function getSelectedValue(id) {
+  return $("#" + id).find("dt a span.value").html();
+}
+
+$(document).bind('click', function(e) {
+  var $clicked = $(e.target);
+  if (!$clicked.parents().hasClass("dropdown"))
+    $("#center_nav2 dd ul").hide();
+});
+
+$("#center_nav2 img.flag").toggleClass("flagvisibility");
 
 
 var swiper = new Swiper('.indexvisual-container', {
