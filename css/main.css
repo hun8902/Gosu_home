@@ -4,7 +4,7 @@
 /* CSS Document */
 html,body{padding:0; margin:0;}
 .container{width:1850px;margin:0 auto; }
-.container_s{width:1100px;margin:0 auto; }
+.container_s{width:1200px;margin:0 auto; }
 
 
 /* Default Setting */
@@ -496,4 +496,150 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
   .flagvisibility {
     display: none;
   }
-  
+
+.sub_content{
+  font-size: 18px;
+  line-height: 24px;
+  color:#444444;
+  font-weight: 400; 
+
+}
+
+.subcontent{
+  font-size: 28px;
+  text-align: center;
+  color:#222222;
+  font-weight: 600;
+  padding-bottom:30px;
+  }
+
+.subcontent:after {
+  content: "";
+  text-align: center;
+  margin:20px auto 0 auto;
+  display: block;
+  width: 100px;
+  border-bottom: 2px solid #ff2222;;
+}
+
+
+  .subcont_txt1{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color:#444444;
+    font-weight: 400; 
+  }
+  .sub0101_01{
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:80px;
+  }
+
+  .subcont_title{
+    font-size: 34px;
+    text-align: center;
+    color:#222222;
+    font-weight: 500; 
+    padding-bottom:27px;
+
+  }
+  .subcont_text{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color:#444444;
+    font-weight: 400; 
+    padding-bottom:40px;
+
+  }
+.ul_list{
+  text-align: center;
+}
+.ul_list_p{
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+.ul_list_p li{
+  display: inline-block;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+.ul_list_p li{
+  display: inline-block;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+.pd_80{ padding-bottom:80px;}
+.ul_list li{
+  display: inline-block;
+  margin-right:11px;
+
+}
+.ul_list li:last-child{
+  margin-right:0;
+}
+
+.sub0101_box{
+  position: relative;
+  width: 290px;
+  height: 290px;
+  border:1px solid #d7d7d7;
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -ms-transform:scale(1); 
+  -o-transform:scale(1);  
+  transform:scale(1);
+  -webkit-transition:.3s;
+  -moz-transition:.3s;
+  -ms-transition:.3s;
+  -o-transition:.3s;
+  transition:.3s;
+}
+.sub0101_box:hover  {
+  transform:scale(1.1); /* 마우스 오버시 이미지 크기를 1.1 배만큼 확대 */
+  -o-transform:scale(1.1); 
+  -moz-transform:scale(1.1);
+  -webkit-transform:scale(1.1);
+  transition: transform .35s;  
+  -o-transition: transform .35s;
+  -moz-transition: transform .35s;
+  -webkit-transition: transform .35s;
+  /* 마우스 오버시 이미지가 즉시 커지지 않고 30.5 second 의 시간에 걸쳐 커지는 애니메이션 효과*/
+}
+.subcont_text1{
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color:#444444;
+  font-weight: 400; 
+  padding-bottom:40px;
+}
+.sub01_box_img{
+  text-align:center;
+  padding-top:52px;
+}
+.sub01_box_t1{
+  font-size: 20px;
+  text-align: center;
+  color:#222222;
+  font-weight: 600; 
+  padding-top:28px;
+}
+
+.sub01_box_t2{
+  font-size: 13px;
+  text-align: center;
+  color:#e22038;
+  font-weight: 400; 
+  padding-top:10px;
+}
+
+.sub01_box_t3{
+  font-size: 14px;
+  text-align: center;
+  color:#444444;
+  font-weight: 400; 
+  padding-top:25px;
+}
