@@ -51,15 +51,18 @@
 
 <div class="sub_content">
     <div class="container_s">
-        <div class="subcontent animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">기업철학</div>
-        <div class="subcont_txt1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">“꾸준한 <span class="red_t">초과 성과 창출</span>을 통한 고객만족”</div>
-        <div class="sub0201_01 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.5s"><img src="images/sub0201_01.png"/></div>
-        <div class="sub0201_box animate" data-animate="fadeIn" data-duration="1s" data-delay="0.5s">
-        <div class="sub0201_box_t1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">당신의 성공투자를 향한 가능성, <span class="red_c">고수경제TV</span>와 함께하세요 </div>
-        <div class="sub0201_box_t2 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">지식(Knowledge), 첨단기술(High Technology), 세계화(Globalization)의 3박자를 모두 두루 갖춘<br/>세계 최고의 주식 방송회사로 성장할 수 있도록 최선의 노력을 할 것 입니다. </div>
+        <div class="subcontent animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">솔루션</div>
+        <div class="subcont_txt1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">고수경제TV는 세계화된 지식 기술 사회의 주식시장에 새로운 패러다임을 창출하고자 합니다.</div>
+        <div class="sub0101_01 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.5s"><img src="images/sub0104.png"/></div>
 
-        </div>
-        
+        <div class="subcont_text2 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">정화한 분석과 예측, 적절한 대응전략 수반되는</div>
+        <div class="subcont_title2 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">“최적화된 솔루션”</div>
+        <ul class="ul_list ">
+            <li class="animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s"><img src="images/sub0104_b1.png"></li>
+            <li class="animate" data-animate="fadeIn" data-duration="1s" data-delay="0.2s"><img src="images/sub0104_b2.png"></li>
+            <li class="animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s"><img src="images/sub0104_b3.png"></li>
+            <li class="animate" data-animate="fadeIn" data-duration="1s" data-delay="0.4s"><img src="images/sub0104_b4.png"></li>
+        </ul>
     </div>
 </div>
 				

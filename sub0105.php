@@ -51,14 +51,12 @@
 
 <div class="sub_content">
     <div class="container_s">
-        <div class="subcontent animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">기업철학</div>
-        <div class="subcont_txt1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">“꾸준한 <span class="red_t">초과 성과 창출</span>을 통한 고객만족”</div>
-        <div class="sub0201_01 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.5s"><img src="images/sub0201_01.png"/></div>
-        <div class="sub0201_box animate" data-animate="fadeIn" data-duration="1s" data-delay="0.5s">
-        <div class="sub0201_box_t1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">당신의 성공투자를 향한 가능성, <span class="red_c">고수경제TV</span>와 함께하세요 </div>
-        <div class="sub0201_box_t2 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">지식(Knowledge), 첨단기술(High Technology), 세계화(Globalization)의 3박자를 모두 두루 갖춘<br/>세계 최고의 주식 방송회사로 성장할 수 있도록 최선의 노력을 할 것 입니다. </div>
-
-        </div>
+        <div class="subcontent animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">수상내역</div>
+        <div class="subcont_txt1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">주식투자의 진짜 고수들이 뭉친 고수경제TV가 2020년 상반기 [2020 한국소비자만족지수],<br/>[대한민국고객만족브랜드대상], [대한민국넘버원대상]의 주식컨설팅 부문 1위 3관왕을 달성했습니다.</div>
+        <ul>
+            <li></li>
+        </ul>
+     
         
     </div>
 </div>

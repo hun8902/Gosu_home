@@ -73,11 +73,11 @@
 		<!--nav-->
 		<div id="top_gnb">
 			<div class="DB_wrap">
-				<h1><a href="#"><img src="images/logo.png" alt="logo"/></a></h1>
+				<h1><a href="index.php"><img src="images/logo.png" alt="logo"/></a></h1>
 				<ul class="DB_main">					
-					<li><a href="#">회사소개</a></li>
-					<li><a href="#">CH고수TV</a></li>
-					<li><a href="#">상품안내</a></li>
+					<li><a href="sub0101.php">회사소개</a></li>
+					<li><a href="sub0102.php">CH고수TV</a></li>
+					<li><a href="sub0103.php">상품안내</a></li>
 					<li><a href="#">성과인증</a></li>
 					<li><a href="#">고객센터</a></li>
 					<li class="redbox"><a href="#">급등무료체험</a></li>
@@ -87,12 +87,12 @@
 				<div class="DB_move">
 					<div class="DB_subSet">
 						<ul>
-							<li><a href="#">회사소개</a></li>
-							<li><a href="#">기업철학</a></li>
-							<li><a href="#">위험관리체계</a></li>
-							<li><a href="#">솔루션</a></li>
-							<li><a href="#">수상내역</a></li>
-							<li><a href="#">오시는길</a></li>
+							<li><a href="sub0101.php">회사소개</a></li>
+							<li><a href="sub0102.php">기업철학</a></li>
+							<li><a href="sub0103.php">위험관리체계</a></li>
+							<li><a href="sub0104.php">솔루션</a></li>
+							<li><a href="sub0105.php">수상내역</a></li>
+							<li><a href="sub0106.php">오시는길</a></li>
 						</ul>		
 						<ul>
 							<li><a href="#">종목분석</a></li>
