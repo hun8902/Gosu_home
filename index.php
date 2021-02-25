@@ -499,7 +499,7 @@
 
 		<div class="googlemaps">
 			<div id="staticMap" class="animate"  data-animate="fadeIn" data-duration="1s" data-delay="0.1s" style="width:100%;height:400px;"></div>
-			<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=eff4d702bcdf6ae8337ff95f0b6e137c"></script>
+			<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=94e6ba69dd34a024477b54e3d9e914a3"></script>
 			<script>
 				// 이미지 지도에 표시할 마커입니다
 				// 이미지 지도에 표시할 마커를 아래와 같이 배열로 넣어주면 여러개의 마커를 표시할 수 있습니다 
