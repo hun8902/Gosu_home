@@ -285,8 +285,8 @@ $(document).ready(function() {
   })
   $('#top_gnb').DB_naviFullWideMove({
       key:'c37080',                 //라이센스키
-      pageNum:3,           //메인메뉴 페이지인식(1~)
-      subNum:1,            //서브메뉴 페이지인식(1~)
+      //pageNum:3,           //메인메뉴 페이지인식(1~)
+      //subNum:1,            //서브메뉴 페이지인식(1~)
       subState:false,         //메뉴활성시 서브메뉴의 오픈유무(true,false)
       motionSpeed:300,        //모션속도(밀리초)
       delayTime:100             //메뉴아웃시 되돌아가는 딜레이시간(밀리초)

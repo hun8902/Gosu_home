@@ -49,7 +49,7 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #top_gnb img{border:0}
 #top_gnb a{text-decoration:none}
 
-#top_gnb {position:relative;max-width: 2000px;  min-width:1850px;  height:80px; margin:0 auto; background:#222222;}
+#top_gnb {position:fixed; z-index:199; left:0; right:0; width: 100%; top:40px;  _max-width: 2000px;  _min-width:1850px;  height:80px; margin:0 auto; background:#222222;}
 #top_gnb .DB_wrap{position:relative;width:1850px; overflow:hidden; margin:0 auto;/*비표준=>left:50%;margin-left:-500px*/;height:80px}
 #top_gnb .DB_wrap h1{margin:10px 25px 0 0;float:left; color:#fff; font-size:0px}
 #top_gnb .DB_wrap h1 a{color:#fff;}
@@ -71,7 +71,7 @@ button {display: inline-block; font-family: inherit; text-decoration: none; back
 #top_gnb .DB_mask .DB_move .DB_subSet ul li.DB_select a{color:#e21c34;font-weight:bold;letter-spacing:-1px;}
 #top_gnb .DB_mask .DB_move .DB_close{position:absolute;top:130px;right:10px;cursor:pointer;}
 
-#warp .top_select{position:relative;  min-width:1850px;  max-width: 2000px; margin:0 auto; background:#222222; height: 40px; border-bottom:1px solid #5a5a5a; }
+#warp .top_select{position:fixed; z-index:199;  left:0; right:0; width: 100%;  _min-width:1850px;  _max-width: 2000px; margin:0 auto; background:#222222; height: 40px; border-bottom:1px solid #5a5a5a; }
 #warp .top_select .container{padding-top:13px;}
 #warp .top_select .container .ts_right{text-align:right; float:right; margin-right:10px; display: inline-block;}
 #warp .top_select .container .ts_right li{display:inline-block; margin:0 9px 0 0;}
@@ -342,14 +342,14 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
 #warp .banner_slide .container .index_bn_right{position: absolute;   width: 25px; height: 48px; right:0;}
 #warp .googlemaps{position:relative;  max-width: 2000px; margin:0 auto;  height:400px;  min-width:1850px; }
 
-#warp .foot_link{position:relative; height:50px;  max-width: 2000px; margin:0 auto;   min-width:1850px;  background:#373737;}
+#warp .foot_link{position:relative; height:50px;  _max-width: 2000px; margin:0 auto;   _min-width:1850px;  background:#373737;}
 #warp .foot_link .container{width:1250px;}
 #warp .foot_link .container .foot_ul{text-align:center; padding-top: 19px;;}
 #warp .foot_link .container .foot_ul li{display:inline-block; margin:0 60px 0 0; font-size:14px; }
 #warp .foot_link .container .foot_ul li::before{padding-right:60px ;content:"┃"; color: #cccccc;}
 #warp .foot_link .container .foot_ul li:first-child::before{content: "";}
 #warp .foot_link .container .foot_ul a{color:#cccccc;} 
-#warp .foot{position:relative;   max-width: 2000px; margin:0 auto;  min-width:1850px;  height:227px; background:#2a2a2a;}
+#warp .foot{position:relative;   _max-width: 2000px; margin:0 auto;  _min-width:1850px;  height:227px; background:#2a2a2a;}
 #warp .foot .container{position:relative;  width:1250px;}
 #warp .foot .container .copy_1{font-size:14px; color:#8a8a8a; line-height:20px; padding-top:25px; padding-left:20px;}
 #warp .foot .container .copy_1 span{font-size:14px; color:#aeaeae; font-weight:600; padding-top:10px;}
@@ -541,6 +541,11 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
 
   }
   .sub0101_01{
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:80px;
+  }
+  .sub0301_01{
     text-align: center;
     padding-top:40px;
     padding-bottom:80px;
@@ -818,18 +823,20 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
   padding-left: 30px;
 }
 .maps_box{
+  position: relative;
   border-top:2px solid #222222;
   padding-top:39px;
   margin-top:50px;
   height:560px;
+  font-size:20px;
+  color:#222222;
 }
 .maps_bottom{
-  padding-top:61px
+  padding-top:61px;
+  width: 100%;;
 }
-.maps_bottom li{
-  display: inline-block; 
-  vertical-align: top;
-}
+.maps_bottom tr td{vertical-align: top;;}
+.maps_txtbotd{width:216px;}
 .maps_txtbox{
   width: 196px;
   height:106px;
@@ -839,8 +846,20 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
   margin-right: 23px;;
 }
 .maps_txt1{
-  background:url("../images/icon_maps.png") no-repeat;
+  background:url("../images/icon_maps.png") no-repeat 9px center;
   border-bottom:1px solid #ebebeb;
-  width: 100%;
-  height:37px;
+  padding: 0 0 0 53px;
+  height:55px;
+  line-height: 55px;;++++
+  font-size:19px;
+  color:#222222;
+}
+.maps_txt2{
+  background:url("../images/icon_phone.png") no-repeat 9px center;
+
+  padding: 0 0 0 53px;
+  height:55px;
+  line-height: 55px;;
+  font-size:19px;
+  color:#222222;
 }

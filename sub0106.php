@@ -54,7 +54,7 @@
         <div class="subcontent animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">오시는 길</div>
         <div class="subcont_txt1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s">고수경제TV로 오시는 길을 안내합니다.</div>
         <div class="maps_box">
-        <div id="staticMap" class="animate"  data-animate="fadeIn" data-duration="1s" data-delay="0.1s" style="width:100%;height:560px;"></div>
+        <div id="staticMap" class="pt_40 animate"  data-animate="fadeIn" data-duration="1s" data-delay="0.1s" style="width:100%;height:560px;"></div>
 			<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=94e6ba69dd34a024477b54e3d9e914a3"></script>
 			<script>
 				// 이미지 지도에 표시할 마커입니다
@@ -83,13 +83,25 @@
 				<!-- 지도를 표시할 div 입니다 -->
 			
         </div>
+        
         <ul class="maps_bottom">
-            <li><div class="maps_txtbox">본사</div></li>
-            <li>
-                
-                <div class="maps_txt1">서울시 마포구 서교동 395-155, 4층</div><br/>
-                <div class="maps_txt2">1566-2827 /  1899-5286</div>
-            </li>
+            <table class="2">
+                <tr>
+                    <td rowspan="2" class="maps_txtbotd">
+                    <div class="maps_txtbox">본사</div>
+                    
+                    </td>
+                    <td>
+                    <div class="maps_txt1">서울시 마포구 서교동 395-155, 4층</div> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                  
+                    <div class="maps_txt2">1566-2827 /  1899-5286</div>
+                    </td>
+                </tr>
+            </table>
         </ul>
     </div>
 </div>

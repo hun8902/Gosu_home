@@ -76,8 +76,8 @@
 				<h1><a href="index.php"><img src="images/logo.png" alt="logo"/></a></h1>
 				<ul class="DB_main">					
 					<li><a href="sub0101.php">회사소개</a></li>
-					<li><a href="sub0102.php">CH고수TV</a></li>
-					<li><a href="sub0103.php">상품안내</a></li>
+					<li><a href="sub0201.php">CH고수TV</a></li>
+					<li><a href="sub0301.php">상품안내</a></li>
 					<li><a href="#">성과인증</a></li>
 					<li><a href="#">고객센터</a></li>
 					<li class="redbox"><a href="#">급등무료체험</a></li>
@@ -100,9 +100,9 @@
 							<li><a href="#">시황분석</a></li>
 						</ul>		
 						<ul>
-							<li><a href="#">국내주식</a></li>
-							<li><a href="#">애널리스트 소개</a></li>
-							<li><a href="#">가입안내</a></li>
+							<li><a href="sub0301.php">국내주식</a></li>
+							<li><a href="sub0302.php">애널리스트 소개</a></li>
+							<li><a href="sub0303.php">가입안내</a></li>
 						</ul>
 						<ul>
 							<li><a href="#">압도적인 성과</a></li>
