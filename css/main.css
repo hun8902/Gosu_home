@@ -559,6 +559,23 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
   padding-bottom:27px;
 
 }
+
+.subcont_title1{
+  font-size: 24px;
+  text-align: center;
+  color:#ffffff;
+  font-weight: 500; 
+  padding-bottom:27px;
+  padding-top:50px;
+
+}
+.subcont_title1 .yel{
+  font-size: 24px;
+  text-align: center;
+  color:#ffde00;
+  font-weight: 500; 
+}
+
 .subcont_text{
   font-size: 18px;
   line-height: 24px;
@@ -850,7 +867,7 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
   border-bottom:1px solid #ebebeb;
   padding: 0 0 0 53px;
   height:55px;
-  line-height: 55px;;++++
+  line-height: 55px;
   font-size:19px;
   color:#222222;
 }
@@ -863,3 +880,36 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
   font-size:19px;
   color:#222222;
 }
+
+.db_box{
+  position: relative;
+  background:url("../images/db_section.png") no-repeat;
+  width: 1036px;
+  height: 336px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.w211{width:211px}
+
+.db_form_table{position:relative; width:auto; _width:100%; }
+.db_form_table tr th{width:129px; text-align:right; vertical-align: middle; padding-right:24px; font-size:18px; color:#ffffff; font-weight:600;}
+.db_form_table tr td{ text-align:left; vertical-align: top;}
+.btn_img{text-align:center;}
+.db_form_table .inputform{border:1px solid #000; font-size: 18px; color:#d7d7d7; background:#fff; width:410px; line-height:54px; height:54px; padding-left:34px;  margin-bottom:10px; margin-right:10px;}
+
+.chkB { position: relative;  padding-bottom:8px;}
+.chkB input {position: absolute; top: 0; left: 0; margin: 0; padding: 0 !important; width: 26px !important; height: 26px; border: 0 !important; opacity: 0; z-index: 2; cursor: pointer;}
+.chkB input + label {display: inline-block; padding: 0 0 0 30px !important; height: 26px; line-height: 26px; font-size: 14px;  font-weight:300; color: #fff;  vertical-align: top; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; z-index: 1; cursor: pointer;}
+.chkB input[type="checkbox"] + label {background: url("../img/check_off.png") 0 50% no-repeat;}
+.chkB input[type="checkbox"]:checked + label {background: url("../img/check_on.png") 0 50% no-repeat;}
+.popup_view{vertical-align: top;    color: #fff;    font-size: 14px;    line-height: 10px;    margin-left: 5px;}
+.chkB  span{margin-left:5px; color:#fff; font-size: 14px; line-height: 26px; cursor:pointer}
+
+.agree_div{position:relative; text-align:center; padding-top:14px;}
+.form_agree{display:inline-block; margin-right:10px; color:#fff;}
+
+.popup_ag1{position:absolute;  top:-230px; margin-left:50px; width:480px; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.popup_ag2{position:absolute;  top:0px; margin-left:0; width:480px; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
+.agpopup_close{position:absolute; margin-top: -70px; right:-1px;}
+.long_text{width:100%; height:100%; border:0; padding:15px;}
