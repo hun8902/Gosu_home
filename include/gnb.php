@@ -80,7 +80,7 @@
 					<li><a href="sub0301.php">상품안내</a></li>
 					<li><a href="#">성과인증</a></li>
 					<li><a href="#">고객센터</a></li>
-					<li class="redbox"><a href="#">급등무료체험</a></li>
+					<li class="redbox"><a href="sub0601.php">급등무료체험</a></li>
 				</ul>
 			</div>
 			<div class="DB_mask">

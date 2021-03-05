@@ -61,39 +61,54 @@
         <div class="db_box animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">
         <div class="subcont_title1 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">고수경제TV <span class="yel">VIP 무료 체험</span> 서비스 신청</div>
         <form name="sentMessage" method="post"  action="process.php"  class="landing_form" novalidate="">
-				<div class="form_padding animate" data-animate="fadeInUp" data-duration="1s" data-delay="0.1s">
-					<table class="db_form_table">
-						<tr>
-							<th>이름</th>
-							<td><input type="text" id="representative" name="representative" value="" class="inputform" placeholder="이름을 입력해주세요" data-message="이름을 입력해주세요"></td>
-                            <td rowspan="2" class="w211"><div class="btn_img"><input type="image" src="images/btn_img.png" class=""></div></td>
-						</tr>
-						<tr>
-							<th>연락처</th>
-							<td><input type="text" name="phone" id="hp" value="" class="phone_check inputform" placeholder="연락처를 입력해주세요(숫자만) " data-message="연락처를 입력해주세요" pattern="[0-9]*" inputmode="numeric" maxlength="13"></td>
-						</tr>
-					</table>
-					<div class="agree_div">
+        <div class="form_padding animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">
+            <table class="db_form_table">
+                <tr>
+                    <th>이름</th>
+                    <td><input type="text" id="representative" name="representative" value="" class="inputform" placeholder="이름을 입력해주세요" data-message="이름을 입력해주세요"></td>
+                    <td rowspan="2" class="w211"><div class="btn_img"><input type="image" src="images/btn_img.png" class=""></div></td>
+                </tr>
+                <tr>
+                    <th>연락처</th>
+                    <td><input type="text" name="phone" id="hp" value="" class="phone_check inputform" placeholder="연락처를 입력해주세요(숫자만) " data-message="연락처를 입력해주세요" pattern="[0-9]*" inputmode="numeric" maxlength="13"></td>
+                    </tr>
+                <tr>
+                    <th>
+                    <td colspan="2">
+                        <div class="agree_div">
 
-						<div class="form_agree">
-							<div class="chkB"><input type="checkbox" id="agree_mo1" checked="" class="agree form-control form" data-message="개인정보취급방침에 동의 해주세요"><label for="agree_mo1">개인정보취급방침 동의</label><span class="popup_view1"> [보기]</span></div>
-						</div>
-						<div class="form_agree">
-							<div class="chkB"><input type="checkbox" id="agree_mo2" checked="" class="agree form-control form" data-message="전화수신에 동의 해주세요"><label for="agree_mo2">전화수신동의 </label></div>
-						</div>
-						<div class="form_agree">
-							<div class="chkB"><input type="checkbox" id="agree_mo3" checked="" class="agree form-control form" data-message="제 3자프로모션에 동의 해주세요"><label for="agree_mo3">제 3자프로모션동의</label></div>
-						</div>					
-					</div>
+                            <div class="form_agree">
+                                <div class="chkB"><input type="checkbox" id="agree_mo1" checked="" class="agree form-control form" data-message="개인정보수집 및 활용 동의 해주세요"><label for="agree_mo1">개인정보수집 및 활용 동의(필수)</label><span class="popup_view1"> [보기]</span></div>
+                            </div>
+                            <div class="form_agree">
+                                <div class="chkB"><input type="checkbox" id="agree_mo2" checked="" class="agree form-control form" data-message="개인정보 제3자 제공 동의 해주세요"><label for="agree_mo2">개인정보 제3자 제공동의(필수) </label><span class="popup_view1"> [보기]</span><</div>
+                            </div>
+                            <br/>
+                            <div class="form_agree">
+                                <div class="chkB"><input type="checkbox" id="agree_mo3" checked="" class="agree form-control form" data-message="광고 문자메시지 수신 동의 해주세요"><label for="agree_mo3">광고 문자메시지 수신동의(필수)</label></div>
+                            </div>					
+                        </div>
+                    </td>
+              </tr>
+              </table>
+            </div>
 
-				</div>
+        </form>
 
-				</form>
         </div>
 
-        <div class="subcont_title animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">고수가 알려주는 국내주식 6가지 투자원칙</div>
+        <div class="subcont_title pt_50 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">고수가 알려주는 국내주식 6가지 투자원칙</div>
         <div class="subcont_text animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">주식투자에 어려움을 겪는 분들을 위해 올바른 투자경험이 가능한 최상의 서비스를 제공합니다.</div>
-        
+        <div class="sub0301_02 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s"><img src="images/sub0301_02.png"/></div>
+        <div class="sub0301_03 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.2s"><img src="images/sub0301_03.png"/></div>
+        <div class="subcont_title pt_50 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">이런분들이 이용합니다.</div>
+        <div class="subcont_text animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s">흔들리는 멘탈로 무너진 일상들, 이젠 고수경제TV가 수익과 멘탈 모두 지켜드립니다!</div>
+        <ul class="sub03_img_ul">
+            <li><div class="sub0301_04 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.1s"><img src="images/sub0301_04.png"/></div></li>
+            <li><div class="sub0301_05 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.3s"><img src="images/sub0301_05.png"/></div></li>
+            <li><div class="sub0301_06 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.4s"><img src="images/sub0301_06.png"/></div></li>
+            <li><div class="sub0301_07 animate" data-animate="fadeIn" data-duration="1s" data-delay="0.5s"><img src="images/sub0301_07.png"/></div></li>
+        </ul>
     </div>
 </div>
 				

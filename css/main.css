@@ -892,24 +892,75 @@ html ul.tabs li.active, html ul.tabs li.active a:hover  {color: #fff; cursor: po
 
 .w211{width:211px}
 
-.db_form_table{position:relative; width:auto; _width:100%; }
-.db_form_table tr th{width:129px; text-align:right; vertical-align: middle; padding-right:24px; font-size:18px; color:#ffffff; font-weight:600;}
+.db_form_table{position:relative; width:auto; _width:100%; margin-left: 160px;;}
+.db_form_table tr th{width:60px; text-align:right; vertical-align: middle; padding-right:10px; font-size:18px; color:#ffffff; font-weight:600;}
 .db_form_table tr td{ text-align:left; vertical-align: top;}
 .btn_img{text-align:center;}
-.db_form_table .inputform{border:1px solid #000; font-size: 18px; color:#d7d7d7; background:#fff; width:410px; line-height:54px; height:54px; padding-left:34px;  margin-bottom:10px; margin-right:10px;}
+.db_form_table .inputform{border:1px solid #000; font-size: 18px; color:#d7d7d7; background:#fff; width:410px; line-height:54px; height:54px; padding-left:19px;  margin-bottom:10px; margin-right:10px;}
 
 .chkB { position: relative;  padding-bottom:8px;}
 .chkB input {position: absolute; top: 0; left: 0; margin: 0; padding: 0 !important; width: 26px !important; height: 26px; border: 0 !important; opacity: 0; z-index: 2; cursor: pointer;}
-.chkB input + label {display: inline-block; padding: 0 0 0 30px !important; height: 26px; line-height: 26px; font-size: 14px;  font-weight:300; color: #fff;  vertical-align: top; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; z-index: 1; cursor: pointer;}
-.chkB input[type="checkbox"] + label {background: url("../img/check_off.png") 0 50% no-repeat;}
-.chkB input[type="checkbox"]:checked + label {background: url("../img/check_on.png") 0 50% no-repeat;}
-.popup_view{vertical-align: top;    color: #fff;    font-size: 14px;    line-height: 10px;    margin-left: 5px;}
-.chkB  span{margin-left:5px; color:#fff; font-size: 14px; line-height: 26px; cursor:pointer}
+.chkB input + label {display: inline-block; padding: 0 0 0 30px !important; height: 26px; line-height: 26px; font-size: 14px;  font-weight:300; color: #9c9c9c;  vertical-align: top; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; z-index: 1; cursor: pointer;}
+.chkB input[type="checkbox"] + label {background: url("../images/check_off.png") 0 50% no-repeat;}
+.chkB input[type="checkbox"]:checked + label {background: url("../images/check_on.png") 0 50% no-repeat;}
+.popup_view{vertical-align: top;    color: #9c9c9c;    font-size: 14px;    line-height: 10px;    margin-left: 5px;}
+.chkB  span{margin-left:5px; color:#9c9c9c; font-size: 14px; line-height: 26px; cursor:pointer}
 
-.agree_div{position:relative; text-align:center; padding-top:14px;}
+.agree_div{position:relative; text-align:left; _padding-top:14px;}
 .form_agree{display:inline-block; margin-right:10px; color:#fff;}
 
 .popup_ag1{position:absolute;  top:-230px; margin-left:50px; width:480px; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
 .popup_ag2{position:absolute;  top:0px; margin-left:0; width:480px; height:270px; background:#fff; padding::10px;  z-index:99; border:1px solid #000; display:none;}
 .agpopup_close{position:absolute; margin-top: -70px; right:-1px;}
 .long_text{width:100%; height:100%; border:0; padding:15px;}
+
+.sub03_img_ul {position:relative; text-align:center;}
+.sub03_img_ul li{display:inline-block; margin-right:10px;}
+.sub03_img_ul li:last-child{margin-right:0;}
+.sub0301_02{text-align:center; padding-top:30px; padding-bottom:85px;}
+.sub0301_03{text-align:center;}
+
+.photo_view{position: relative; height:590px;}
+.photo_writebox{position:absolute; background:#fff; top:42px; right:0; width:600px; height:500px; padding:80px 60px 0 60px;}
+.pt_50{padding-top:50px}
+.pd_40{padding-bottom: 40px;}
+
+.p_write_ul {position:relative; }
+.p_write_ul li{ margin-bottom:60px;}
+.p_write_ul li:last-child{margin-bottom:0;}
+.p_write_ul li:nth-child(2n) .photo_writebox{
+  left:0;
+}
+.p_write_ul li:nth-child(2n) .photo_view img{
+  float: right;
+}
+.photo_view::after{clear:both; content: ""; position: relative;}
+.p_write_txt1{font-size:24px; font-weight:600; color:#222222; border-bottom: 1px solid #000; margin-bottom: 35px; padding-bottom: 25px;;}
+.p_write_txt2{font-size:18px; font-weight:400; color:#ed3b4b; padding-bottom: 45px; font-style:italic}
+.p_write_txt3{font-size:16px; font-weight:400; color:#222222; }
+
+.sub0601_bg{
+  position: relative;
+  width: 1200px;
+  height:2314px; 
+  background: url("../images/sub0601_bg.jpg") no-repeat;
+  padding-top:20px;
+
+}
+.sub0601_01{
+  text-align:center;
+  padding-top:75px;
+  padding-bottom:310px;
+}
+.sub0601_02{
+  text-align:center;
+  padding-top:75px;
+}
+.sub0601_03{
+  text-align:center;
+  padding-top:30px;
+}
+.sub0601_04{
+  text-align:center;
+  padding-top:225px;
+}
